@@ -9709,4 +9709,35 @@ table {
   border-spacing: 0;
 }
 
+.navigation {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.navigation__button-start {
+  position: absolute;
+  width: 154px;
+  height: 35px;
+  left: 70%;
+  padding-left: center;
+  color: #221D23;
+  border-color: #FFF;
+  background-color: #FFF;
+}
+.navigation__button-log {
+  position: absolute;
+  width: 154px;
+  height: 35px;
+  left: 70%;
+  padding-left: center;
+  color: #FFF;
+  border-color: #2AB7CA;
+  background-color: #2AB7CA;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+.navigation {
+  font-family: $raleway;
+  font-size: $medium;
+  font-weight: $regular;
+
+
+  &__button-start{
+    position:absolute;
+  width: 154px;
+  height: 35px;
+  left: 70%;
+  padding-left: center;
+  color: $raising-black;
+  border-color: $white;
+  background-color: $white;
+  }
+
+  &__button-log{
+    position:absolute;
+  width: 154px;
+  height: 35px;
+  left: 70%;
+  padding-left: center;
+  color: $white;
+  border-color: $ball-blue;
+  background-color: $ball-blue;
+  }
+}
