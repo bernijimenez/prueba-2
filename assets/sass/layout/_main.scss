@@ -1,0 +1,24 @@
+.runner {
+position: absolute;
+z-index: -1;
+transform:
+  scale(0.95)
+  translateX(-130px);
+}
+
+.general__info {
+  width: 35vw;
+  height: 74vh;
+  float: left;
+  margin-left: 10vw;
+  padding: 10px;
+  line-height: 33px;
+
+}
+
+.general__info h1 {
+
+  line-height: 50px;
+  padding-bottom: 15px;
+
+}

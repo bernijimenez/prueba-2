@@ -39,6 +39,15 @@ $open-sans: 'Open Sans', sans-serif;
 $bold: 700;
 $regular: 400;
 
+// Número de columnas de la grillas
+$number-columns: 12;
+
+// Brakpoints
+$viewport-small: 576px;
+$viewport-medium: 768px;
+$viewport-large: 992px;
+$viewport-xlarge: 1200px;
+
 // Tamaño tipografía
 $xxxxx-large: 50px;
 $xxxx-large: 40px;
