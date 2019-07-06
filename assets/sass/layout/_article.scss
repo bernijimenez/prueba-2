@@ -1,15 +1,64 @@
+.caract {
+  margin-top: 150vh;
+
+  &__stad {
+    width: 380px;
+    height: 100px;
+    float: right;
+    position: relative;
+    margin-right: 140px;
+    margin-top: -180px;
+
+  }
+}
+.caract h2 {
+  text-align: center;
+}
+.caract h3{
+  margin-bottom: 2vh;
+  width: 100vh;
+}
+.caract h2{
+  margin-bottom: 60px;
+}
+
+
+
+@media (max-width: 576px) {
+  .caract {
+    margin-top: 100vh;
+    &__stad {
+      margin-top: 50vh;
+      width: 380px;
+      height: 100px;
+      margin-right: -90px;
+    }
+  }
+  .caract h3{
+    margin-bottom: 2vh;
+    width: 100vh;
+  }
+  .caract h2{
+    margin-left: 3vh;
+    margin-bottom: 50px;
+  }
+  }
+
+
+
 .set-opacity {
+  margin-left: 40vh;
+
   animation-name: plop;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 
-  @keyframes plop {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@media (max-width: 576px) {
+  .set-opacity{
+    margin-left: 4vh;
+
   }
 }

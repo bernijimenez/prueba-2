@@ -2,18 +2,42 @@
 position: absolute;
 z-index: -1;
 transform:
-  scale(0.95)
-  translateX(-130px);
+  scale(0.9)
+  translateX(-98px)
+
 }
+
+@media (max-width: 576px) {
+  .runner{
+    position: absolute;
+    z-index: -1;
+    transform:
+      scale(0.35)
+      translateX(-350px);
+  }
+}
+
 
 .general__info {
   width: 35vw;
   height: 74vh;
   float: left;
-  margin-left: 10vw;
+  margin-left: 8.5vw;
   padding: 10px;
   line-height: 33px;
+  margin-top: 50px;
 
+}
+@media (max-width: 576px) {
+  .general__info{
+    width: 110vw;
+    height: 74vh;
+    float: left;
+    margin-left: 12vw;
+    padding: 10px;
+    line-height: 33px;
+    margin-top: 2px;
+  }
 }
 
 .general__info h1 {

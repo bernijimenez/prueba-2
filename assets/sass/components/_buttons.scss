@@ -14,7 +14,7 @@
   }
 
   &__button-log{
-  margin-left: 30px; 
+  margin-left: 30px;
   width: 120px;
   height: 35px;
   padding-left: center;
@@ -22,4 +22,15 @@
   border-color: $ball-blue;
   background-color: $ball-blue;
   }
+}
+
+
+.button-free {
+  text-align: center;
+  width: 285px;
+  height: 35px;
+  padding-left: center;
+  color: $white;
+  border-color: $ball-blue;
+  background-color: $ball-blue;
 }

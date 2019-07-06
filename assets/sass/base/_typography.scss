@@ -10,11 +10,19 @@ h2 {
   font-size: $xxxx-large;
   font-weight: $bold;
 }
+
+h3 {
+  font-size: $x-large;
+  font-weight: $bold;
+
+}
 h5  {
   font-size: $medium;
 }
 
 p{
-  font-size: $x-small;
+  font-size: $medium;
+  line-height: 33px;
+
 
 }
