@@ -12,12 +12,28 @@ transform:
     position: absolute;
     z-index: -1;
     transform:
-      scale(0.35)
-      translateX(-350px);
+      scale(0.5)
+      translateX(-110px);
   }
+@media (max-width: 375px) {
+  .runner{
+    transform:
+      scale(0.2)
+      translateX(-110px);
+  }
+}
 }
 
 
+@media (min-width:576px){
+  .runner{
+    transform:
+      scale(1)
+      translateX(120px);
+
+    }
+
+}
 .general__info {
   width: 35vw;
   height: 74vh;
@@ -30,7 +46,7 @@ transform:
 }
 @media (max-width: 576px) {
   .general__info{
-    width: 110vw;
+    width: 100vw;
     height: 74vh;
     float: left;
     margin-left: 12vw;
@@ -41,7 +57,6 @@ transform:
 }
 
 .general__info h1 {
-
   line-height: 50px;
   padding-bottom: 15px;
 

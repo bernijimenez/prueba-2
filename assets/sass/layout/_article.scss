@@ -1,5 +1,5 @@
 .caract {
-  margin-top: 150vh;
+  margin-top: 130vh;
 
   &__stad {
     width: 380px;
@@ -26,12 +26,11 @@
 
 @media (max-width: 576px) {
   .caract {
-    margin-top: 100vh;
+    margin-top: 120vh;
     &__stad {
-      margin-top: 50vh;
+      margin-top: 70vh;
       width: 380px;
       height: 100px;
-      margin-right: -90px;
     }
   }
   .caract h3{
@@ -39,7 +38,7 @@
     width: 100vh;
   }
   .caract h2{
-    margin-left: 3vh;
+    margin-left: 25vh;
     margin-bottom: 50px;
   }
   }
@@ -58,7 +57,10 @@
 
 @media (max-width: 576px) {
   .set-opacity{
-    margin-left: 4vh;
-
+    margin-top: 20vh;
+    margin-bottom:19vh;
+    margin-left: 8vh;
+    transform:
+      scale(1)
   }
 }
