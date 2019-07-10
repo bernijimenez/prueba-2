@@ -10440,7 +10440,7 @@ p {
 .runner {
   position: absolute;
   z-index: -1;
-  transform: scale(0.9) translateX(-98px);
+  transform: scale(1) translateX(-30px);
 }
 
 @media (max-width: 576px) {
@@ -10494,7 +10494,7 @@ p {
   height: 100px;
   float: right;
   position: relative;
-  margin-right: 140px;
+  margin-right: 250px;
   margin-top: -180px;
 }
 
@@ -10548,7 +10548,7 @@ p {
   }
 }
 .mountain {
-  margin-top: 10vh;
+  margin-top: 15vh;
   background-image: url("../img/bg-price.svg");
   background-size: cover;
   height: 900px;
@@ -10557,8 +10557,8 @@ p {
 
 .cards {
   float: left;
-  margin-top: -105vh;
-  margin-left: 90px;
+  margin-top: -90vh;
+  margin-left: 160px;
 }
 
 .cards h2 {
@@ -10621,35 +10621,61 @@ p {
 }
 
 @media (max-width: 576px) {
-  .card {
-    float: left;
-    margin-top: -100px;
-  }
-
-  .card-1 {
-    margin-left: 40vh;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .card-2 {
-    float: left;
-    margin-top: 120px;
-    margin-left: 0;
-  }
-
-  .cards h2 {
-    margin: 0;
+  .mountain {
+    margin-top: 15vh;
+    background-image: url("../img/bg-price.svg");
+    background-size: cover;
+    height: 1300px;
+    width: 70vh;
   }
 }
 @media (max-width: 576px) {
-  .mountain {
-    margin-top: 20vh;
-    background-image: url("../img/bg-price.svg");
-    background-size: cover;
-    height: 1400px;
-    width: 100%;
+  .cards {
+    float: left;
+    margin-top: -170vh;
+    margin-left: -73vh;
+  }
+}
+@media (max-width: 576px) {
+  .cards h2 {
+    margin-top: -10vh;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 600px;
+  }
+}
+@media (max-width: 576px) {
+  .card-1 {
+    margin-left: -35vh;
+  }
+}
+@media (max-width: 576px) {
+  .card-2 {
+    background-color: #FFF;
+    width: 366px;
+    height: 480px;
+    margin-left: 520px;
+    display: float;
+    margin-top: 5vh;
+  }
+  .card-2__info {
+    padding: 40px;
+  }
+  .card-2__info li {
+    margin-top: 25px;
+  }
+  .card-2__list {
+    margin-bottom: 60px;
+  }
+
+  .card-2 h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .card-2 h1 {
+    font-size: 40px;
   }
 }
 footer {
@@ -10667,6 +10693,13 @@ span {
 .credit {
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+  footer {
+    width: 70vh;
+    padding: 80px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

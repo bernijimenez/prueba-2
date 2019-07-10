@@ -1,5 +1,5 @@
 .mountain {
-  margin-top: 10vh;
+  margin-top: 15vh;
   background-image: url('../img/bg-price.svg');
   background-size: cover;
   height: 900px;
@@ -8,8 +8,8 @@
 
 .cards {
   float: left;
-  margin-top: -105vh;
-  margin-left: 90px;
+  margin-top: -90vh;
+  margin-left: 160px;
 }
 
 .cards h2{
@@ -71,35 +71,62 @@ color: $white;
 }
 
 @media (max-width: 576px) {
-  .card {
+.mountain {
+  margin-top: 15vh;
+  background-image: url('../img/bg-price.svg');
+  background-size: cover;
+  height: 1300px;
+  width: 70vh;
+}
+}
+@media (max-width: 576px) {
+  .cards {
     float: left;
-    margin-top: -100px;
-
-  }
-  .card-1 {
-
-    margin-left: 40vh;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-
-  }
-  .card-2 {
-    float: left;
-    margin-top: 120px;
-    margin-left: 0;
-  }
-  .cards h2{
-margin: 0;
+    margin-top: -170vh;
+    margin-left: -73vh;
   }
 }
 
 @media (max-width: 576px) {
-.mountain {
-  margin-top: 20vh;
-  background-image: url('../img/bg-price.svg');
-  background-size: cover;
-  height: 1400px;
-  width: 100%;
+  .cards h2{
+    margin-top: -10vh;
+    margin-bottom: 30px;
+  text-align: center;
+  margin-left: 600px;
+  }
 }
+
+@media (max-width: 576px) {
+  .card-1 {
+    margin-left: -35vh;
+  }
 }
+
+@media (max-width: 576px) {
+  .card-2 {
+    background-color: $white;
+    width: 366px;
+    height: 480px;
+    margin-left: 520px;
+    display: float;
+    margin-top: 5vh;
+    &__info{
+      padding: 40px;
+    }
+    &__info li{
+      margin-top: 25px;
+    }
+    &__list{
+      margin-bottom: 60px;
+    }
+  }
+
+  .card-2 h3{
+    font-size: $x-large;
+    font-weight: $regular;
+    margin-bottom: 10px;
+  }
+  .card-2 h1{
+    font-size: $xxx-large;
+  }
+  }

@@ -13,3 +13,10 @@ span {
   display: flex;
   justify-content: flex-end;
 }
+
+@media (max-width: 576px) {
+  footer {
+    width: 70vh;
+    padding: 80px;
+  }
+}
